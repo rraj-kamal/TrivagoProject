@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Trivago.Room5.TestDriver">
+        <methods>
+          <include name="endReport"/>
+          <include name="startBrowser"/>
+          <include name="startTest"/>
+          <include name="killBrowser"/>
+          <include name="demoSkipTest"/>
+          <include name="demoFailTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.Trivago.Room5.TestDriver -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
